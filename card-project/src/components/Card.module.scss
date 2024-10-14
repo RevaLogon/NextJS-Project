@@ -1,0 +1,60 @@
+.card {
+    background-color: #ffffff3a; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    margin: 20px;
+    max-width: 500px;
+    padding: 20px;
+    position: relative;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.cardContent {
+    text-align: left; 
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.descriptionInput {
+    font-size: 18px;
+    margin-bottom: 8px;
+    padding: 3px;
+    border: 1px solid #030000;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact {
+    font-size: 14px;
+    color: #0070f3;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+    &:hover {
+        color: #0056b3;
+    }
+}
+
+.displayedDescription {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000000; 
+}
